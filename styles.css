@@ -1,0 +1,17 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.gl_container_header {
+	margin-bottom: 20px;
+ }
+
+img {
+	transition: 1s;
+}
+
+img:hover {
+	transform: scale(1.2);
+ }
+
