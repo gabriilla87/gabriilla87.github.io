@@ -563,7 +563,7 @@ html {
 
 .contacts-info__privacy_policy {
     display: flex;
-    width: 180px;
+    width: 200px;
     height: 36px;
     gap: 10px;
 }
