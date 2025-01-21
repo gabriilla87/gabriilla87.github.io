@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@500;700&display=swap"
+            rel="stylesheet"
+    />
+    <script src="./script.js" defer></script>
+    <title>Test Krainet</title>
+</head>
+<body>
+<div class="page">
+    <section class="promo">
+        <div class="container container_promo">
+            <div class="promo-socials">
+                <span class="promo-socials__text">Социальные сети</span>
+                <div class="socials__icons">
+                    <a href="https://github.com/" target="_blank">
+                        <img src="./assets/socials/github.svg" alt="github_icon">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="./assets/socials/instagram.svg" alt="instagram_icon">
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="./assets/socials/facebook.svg" alt="facebook_icon">
+                    </a>
+                </div>
+            </div>
+            <div class="content content_promo">
+                <picture>
+                    <source
+                            srcset="assets/promo/promo-image-desktop.png"
+                            media="(min-width: 769px)"
+                    />
+                    <img
+                            src="assets/promo/promo-image-mobile.png"
+                            alt="promoBg"
+                            class="promo__image"
+                    />
+                </picture>
+                <div class="promo-info">
+                    <span class="promo-info__title">
+                       <span class="text-in-circle">М</span><span>еня зовут Александра Смит</span>
+                    </span>
+                    <h1 class="promo-info__subtitle">Я web-разработчик из города Москва</h1>
+                    <div class="promo-info__links">
+                        <a class="promo-info__link promo-info__link_main" href="#contacts_section">Контакты</a>
+                        <a class="promo-info__link promo-info__link_secondary" href="#experience_section">Опыт</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="experience" id="experience_section">
+        <div class="container container__experience">
+            <div class="content content_experience">
+                <div class="experience__header">
+                    <span class="experience__title text-in-circle">Опыт</span>
+                    <h2 class="experience__subtitle">Чем я буду полезна</h2>
+                </div>
+                <div class="experience__columns">
+                    <div class="experience__column">
+                        <h3 class="experience__column-title">Образование</h3>
+                        <div class="experience__item">
+                            <div class="experience-item-header">
+                                <span class="experience-item-header__icon icon_university"></span>
+                                <div class="experience-item-header-text">
+                                    <h4 class="experience-item-header-text__position">МГТУ им. Н. Э. Баумана</h4>
+                                    <span class="experience-item-header-text__place">
+                                        Диплом магистра | Москва (2014-2020)
+                                    </span>
+                                </div>
+                            </div>
+                            <p class="experience-item__description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmo.
+                            </p>
+                        </div>
+                        <div class="experience__item">
+                            <div class="experience-item-header">
+                                <span class="experience-item-header__icon icon_courses"></span>
+                                <div class="experience-item-header-text">
+                                    <h4 class="experience-item-header-text__position">Udemy</h4>
+                                    <span class="experience-item-header-text__place">Курсы по Web-разработке </span>
+                                </div>
+                            </div>
+                            <p class="experience-item__description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmo.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="experience__column">
+                        <h3 class="experience__column-title">Опыт работы</h3>
+                        <div class="experience__item">
+                            <div class="experience-item-header">
+                                <span class="experience-item-header__icon icon_frontend"></span>
+                                <div class="experience-item-header-text">
+                                    <h4 class="experience-item-header-text__position">Front-End Developer</h4>
+                                    <span class="experience-item-header-text__place">EPAM | Москва (2018-2019)</span>
+                                </div>
+                            </div>
+                            <p class="experience-item__description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmo.
+                            </p>
+                        </div>
+                        <div class="experience__item">
+                            <div class="experience-item-header">
+                                <span class="experience-item-header__icon icon-ui-designer"></span>
+                                <div class="experience-item-header-text">
+                                    <h4 class="experience-item-header-text__position">UI/UX Designer</h4>
+                                    <span class="experience-item-header-text__place">Squad Team | Москва (2018)</span>
+                                </div>
+                            </div>
+                            <p class="experience-item__description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts" id="contacts_section">
+        <div class="container">
+            <div class="content content_contacts">
+                <div class="contacts__photo">
+                    <img src="./assets/contacts/me.jpg" alt="It's me!!!">
+                </div>
+                <div class="contacts-info">
+                    <div class="contacts-info__header">
+                        <span class="contacts-info__title">
+                            <span class="text-in-circle">К</span><span>онтакты</span>
+                        </span>
+                        <h2 class="contacts-info__subtitle">Свяжитесь со мной</h2>
+                    </div>
+                    <span class="contacts-info__text">Любым удобным для вас способом:</span>
+                    <div class="contacts-info__icons">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img src="./assets/socials/facebook.svg" alt="facebook_icon">
+                        </a>
+                        <a href="https://web.telegram.org/" target="_blank">
+                            <img src="./assets/socials/telegram.svg" alt="telegram_icon">
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="./assets/socials/instagram.svg" alt="instagram_icon">
+                        </a>
+                    </div>
+                    <span class="contacts-info__text">Или оставьте ваши данные и я сама вам напишу:</span>
+                    <form class="contacts-info__form" id="contacts_form">
+                        <div class="contacts-info__inputs">
+                            <div class="contacts-info__input-wrapper">
+                                <input class="contacts-info__input"
+                                       type="text"
+                                       aria-label="name_field"
+                                       id="name_field"
+                                >
+                                <span class="field_validation" id="name_field_validation">Обязательное поле</span>
+                            </div>
+                            <div class="contacts-info__input-wrapper">
+                                <input class="contacts-info__input"
+                                       type="text"
+                                       aria-label="email_field"
+                                       id="email_field"
+                                />
+                                <span class="field_validation" id="email_field_validation">
+                                    Введите валидный email адрес
+                                </span>
+                            </div>
+                        </div>
+                        <div class="contacts-info__textarea-wrapper">
+                            <textarea class="contacts-info__textarea"
+                                      aria-label="message_field"
+                                      id="message_field"></textarea>
+                            <span class="field_validation" id="message_field_validation">
+                                Сообщение не может быть пустым
+                            </span>
+                        </div>
+                        <div class="contacts-info__submit">
+                            <button class="contacts-info__button" id="submit_button" type="submit" disabled>
+                                Отправить сообщение
+                            </button>
+                            <div class="contacts-info__privacy_policy">
+                                <input type="checkbox"
+                                       aria-label="privacy_policy_agreement"
+                                       id="privacy_policy_checkbox"
+                                >
+                                <span>
+                                    Я согласен(а) с
+                                    <a href="https://www.youtube.com/watch?v=BbeeuzU5Qc8&ab_channel=MetroGirlzStation">
+                                        политикой конфиденциальности
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+</body>
+</html>
