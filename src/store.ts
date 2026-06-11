@@ -168,11 +168,11 @@ export const useStore = create<StoreData>((set) => ({
         },
         {
             id: uuidv4(),
-            listTitle: "1c сервер МБ",
+            listTitle: "1c сервер МБ(Бухгалтерия)",
             listItemsData: [
                 {
                     listItemTitle: "Сервер",
-                    content: "192.168.13.12",
+                    content: "10.129.1.125",
                     type: "text",
                 },
                 {
@@ -204,7 +204,7 @@ export const useStore = create<StoreData>((set) => ({
             listItemsData: [
                 {
                     listItemTitle: "Сервер",
-                    content: "192.168.13.12",
+                    content: "10.129.1.125",
                     type: "text",
                 },
                 {
